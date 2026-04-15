@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jiayu Yi - 计算机科学硕士学位候选人 | 数据分析 | AI/ML开发">
+    <title>Jiayu Yi - 个人网站</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Jiayu Yi</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">主页</a></li>
+                <li><a href="#about" class="nav-link">关于</a></li>
+                <li><a href="#projects" class="nav-link">项目</a></li>
+                <li><a href="#experience" class="nav-link">经验</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主容器 -->
+    <div class="main-container">
+        <div class="container">
+            <!-- 左侧内容 -->
+            <main class="content">
+                <!-- 主页部分 -->
+                <section id="home" class="section hero">
+                    <h1>Jiayu Yi</h1>
+                    <p class="subtitle">MS Computer Science | Data Scientist | AI/ML Developer</p>
+                    <p class="intro">Rochester Institute of Technology 计算机科学硕士研究生。专注于AI/ML开发、数据分析和全栈Web应用。热衷于利用数据驱动的技术解决实际问题。</p>
+                    <div class="contact-buttons">
+                        <a href="tel:585-350-6618" class="btn btn-primary">Call: 585-350-6618</a>
+                        <a href="mailto:jy1135@rit.edu" class="btn btn-secondary">Email</a>
+                    </div>
+                </section>
+
+                <!-- 关于部分 -->
+                <section id="about" class="section">
+                    <h2>关于我</h2>
+                    <h3>教育背景</h3>
+                    <div class="education-item">
+                        <div class="education-header">
+                            <span class="school">Rochester Institute of Technology (RIT)</span>
+                            <span class="degree">Master of Science in Computer Science</span>
+                            <span class="date">Aug 2025 – Present</span>
+                        </div>
+                        <p>GPA: 3.5 | 正在积极寻找2026年5月至2027年5月的Co-op与实习机会</p>
+                        <p><strong>核心课程：</strong> 人工智能、机器学习、大数据、数据结构与算法</p>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-header">
+                            <span class="school">厦门大学（Xiamen University）</span>
+                            <span class="degree">Bachelor of Management in International Business</span>
+                            <span class="date">Sep 2021 – Aug 2025</span>
+                        </div>
+                        <p>Fresh Scholarship - 排名前1%</p>
+                    </div>
+
+                    <h3>技能</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>编程语言</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">R</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>前端开发</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Next.js</span>
+                                <span class="skill-tag">Tailwind CSS</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">Chart.js</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>后端与数据</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Flask</span>
+                                <span class="skill-tag">REST APIs</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">BigQuery</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>AI/ML & 工具</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">PyTorch</span>
+                                <span class="skill-tag">OpenAI API</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Tableau</span>
+                                <span class="skill-tag">Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 项目部分 -->
+                <section id="projects" class="section">
+                    <h2>项目作品</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                            <h3>AskData AI</h3>
+                            <span class="project-date">Jan 2026 – Present</span>
+                            <p>AI驱动的数据可视化和洞察创作平台。使非技术用户能够通过自然语言交互探索CSV数据、生成图表并获得洞察。</p>
+                            <ul class="project-details">
+                                <li>构建端到端NL2VIS工作流，10秒内将用户查询转换为可视化逻辑、统计摘要和图表输出</li>
+                                <li>实现浏览器端CSV解析和模式检测，支持多达100,000行的数据集</li>
+                                <li>使用React和Chart.js构建交互式图表编辑模块（6+图表类型）</li>
+                                <li>撰写研究稿件投稿IEEE VIS</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span>Next.js</span>
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>OpenAI API</span>
+                                <span>Chart.js</span>
+                                <span>Tailwind CSS</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                            <h3>AI Smart Kitchen</h3>
+                            <span class="project-date">Feb 2026 – Present</span>
+                            <p>AI驱动的膳食规划和杂货优化系统，基于用户饮食目标、营养需求和预算约束。</p>
+                            <ul class="project-details">
+                                <li>设计了支持100+种成分和1000+种食谱组合的推荐逻辑</li>
+                                <li>集成营养API进行实时卡路里、宏量营养素和微量营养素分析</li>
+                                <li>设计关系数据库架构，开发包含4个核心模块的仪表板</li>
+                                <li>模块包括：推荐、追踪、营养和购物</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>React</span>
+                                <span>SQL</span>
+                                <span>OpenAI API</span>
+                                <span>Flask</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 工作经验部分 -->
+                <section id="experience" class="section">
+                    <h2>工作经验</h2>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Data Analyst</h3>
+                            <span class="company">Talent Reactor Consulting, Suzhou, China</span>
+                            <span class="date">Feb 2024 – Apr 2024</span>
+                        </div>
+                        <ul class="experience-details">
+                            <li>开发Python脚本进行网页抓取和自动化数据清理，提高工作流效率30%</li>
+                            <li>维护和更新内部数据库以支持行业研究和分析</li>
+                            <li>执行探索性数据分析并生成洞察以支持业务决策</li>
+                            <li>为下游统计建模和报告构建结构化数据集</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Business Assistant</h3>
+                            <span class="company">Stylecraft Home Collection, Dongguan, China</span>
+                            <span class="date">May 2022 – Aug 2022</span>
+                        </div>
+                        <ul class="experience-details">
+                            <li>利用Excel和Python处理和分析销售和运营数据</li>
+                            <li>协助数据库管理和数据提取以进行市场业绩分析</li>
+                            <li>与跨职能团队合作，将数据洞察转化为可行策略</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- 联系部分 -->
+                <section id="contact" class="section">
+                    <h2>联系我</h2>
+                    <p>如果你对我的工作感兴趣或者想要讨论潜在的合作机会，欢迎通过以下方式联系我：</p>
+                    <div class="contact-info">
+                        <a href="tel:585-350-6618" class="contact-link">
+                            <span class="icon">📞</span>
+                            <span>电话</span>
+                            <span class="detail">585-350-6618</span>
+                        </a>
+                        <a href="mailto:jy1135@rit.edu" class="contact-link">
+                            <span class="icon">📧</span>
+                            <span>Email</span>
+                            <span class="detail">jy1135@rit.edu</span>
+                        </a>
+                        <a href="https://linkedin.com/in/jiayu-yi" target="_blank" class="contact-link">
+                            <span class="icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/jiayuyi" target="_blank" class="contact-link">
+                            <span class="icon">🐙</span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </section>
+            </main>
+
+            <!-- 右侧边栏 -->
+            <aside class="sidebar">
+                <div class="sidebar-card">
+                    <div class="avatar">
+                        <div class="avatar-placeholder">JY</div>
+                    </div>
+                    <h3>Jiayu Yi</h3>
+                    <p class="role">CS Master Student</p>
+                    <p class="role-detail">Rochester Institute of Technology</p>
+                    <div class="contact-links">
+                        <a href="tel:585-350-6618" title="Call">📞</a>
+                        <a href="mailto:jy1135@rit.edu" title="Email">📧</a>
+                        <a href="https://linkedin.com/in/jiayu-yi" target="_blank" title="LinkedIn">💼</a>
+                        <a href="https://github.com/jiayuyi" target="_blank" title="GitHub">🐙</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-card">
+                    <h4>快速链接</h4>
+                    <ul class="quick-links">
+                        <li><a href="#about">关于</a></li>
+                        <li><a href="#projects">项目</a></li>
+                        <li><a href="#blog">博客</a></li>
+                        <li><a href="#contact">联系</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-card">
+                    <h4>核心实力</h4>
+                    <div class="highlights">
+                        <div class="highlight">
+                            <span class="badge">AI/ML</span>
+                            <p>PyTorch, OpenAI API</p>
+                        </div>
+                        <div class="highlight">
+                            <span class="badge">全栈开发</span>
+                            <p>React, Node.js, Python</p>
+                        </div>
+                        <div class="highlight">
+                            <span class="badge">数据分析</span>
+                            <p>SQL, BigQuery, Tableau</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-card">
+                    <h4>状态</h4>
+                    <div class="status">
+                        <p><strong>学位进展：</strong> MS Computer Science (进行中)</p>
+                        <p><strong>求职阶段：</strong> 积极寻找 Co-op & Internships</p>
+                        <p><strong>期望时间：</strong> May 2026 – May 2027</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jiayu Yi. All rights reserved.</p>
+            <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.8;">Last updated: April 2026</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
